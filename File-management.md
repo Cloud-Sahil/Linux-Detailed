@@ -1,9 +1,12 @@
 # What is File Management in Linux?
 
-File management in Linux means handling files and directories (folders) —
-👉 creating, viewing, editing, organizing, and deleting them
+**File management in Linux** means handling files and directories (folders) —
+
+👉 **creating, viewing, editing, organizing, and deleting them**
 
 It is one of the most important basic skills in Linux.
+
+---
 
 1. **touch** -----------> to create empty files
 
