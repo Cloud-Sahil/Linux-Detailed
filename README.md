@@ -28,7 +28,7 @@ Linux helps you:
  - Control hardware
 # Ex.
 ```sh
-Labex: Project | $
+labex:project/ $ 
 ```
  - labex - user
  - project - host name , working directory
