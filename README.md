@@ -17,6 +17,7 @@ Linux is an **open-source operating system** used in servers, cloud, DevOps, etc
 👉 It acts as a bridge between:
  - **User (you)**
  - **Hardware (CPU, memory, disk, etc.)**
+
 🔹 Simple Meaning:
 
 Linux helps you:
