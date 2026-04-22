@@ -28,46 +28,46 @@
 
 10. **rm -rvf*** --------------> to delete all folders and file
 
-11. rm -r ------------> delete directory and content inside it
+11. **rm -r** ------------> delete directory and content inside it
 
-12. mkdir -p ---------> parents file (multiple file)
+12. **mkdir -p** ---------> parents file (multiple file)
 
      ex. mkdir -p(abc/xyz/pqr)
 
-13. ls -l ------------> display vertical all information
+13. **ls -l** ------------> display vertical all information
 
-14. cd ---------->  change directory
+14. **cd** ---------->  change directory
 
-15. cd / -----------> back to root directory
+15. **cd /** -----------> back to root directory
 
-16. cd .. ----------> return to the single dir.
+16. **cd ..** ----------> return to the single dir.
 
-17. cd ../.. -----------> return to 2 dir.
+17. **cd ../..** -----------> return to 2 dir.
 
 			cd /home/labex/project --------> path
 
-18. cat ------------> read the file
+18. **cat** ------------> read the file
 
-19. cat > filename ----------> contain file
-
-       ex. abc
-           xyz
-
-20. cat >> filename ----------> add new contain
+19. **cat > filename** ----------> contain file
 
        ex. abc
            xyz
-	   pqr
 
-21. cp ---------> copy file/ rename
+21. **cat >> filename** ----------> add new contain
+
+       ex. abc
+           xyz
+	  	   pqr
+
+22. **cp** ---------> copy file/ rename
 
        syntax --- cp <source>  <destination>
 
-22. mv ---------> move/ cut/ rename 
+23. **mv** ---------> move/ cut/ rename 
 
        ex. abc xyz (rename file)
 
-23. wc ---------> word count
+24. **wc** ---------> word count
 
 	ex. wc file.name   ---------  (no. of line, word, bites) 
 
