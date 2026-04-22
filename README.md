@@ -24,3 +24,10 @@ Linux helps you:
  - Run programs
  - Manage files
  - Control hardware
+# Ex.
+```sh
+Labex: Project | $
+```
+ - labex - user
+ - project - host name , working directory
+ - $ - user type
