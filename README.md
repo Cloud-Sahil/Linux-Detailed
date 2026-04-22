@@ -35,4 +35,5 @@ Labex: Project | $
 # User Types
 
 1.` # - Super User`
+
 2.` $ - Local User`
