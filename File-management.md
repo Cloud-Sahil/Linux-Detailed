@@ -1,32 +1,32 @@
-1. touch -----------> to create empty files
+1. **touch** -----------> to create empty files
 
          ex. touch abc
 
-2. ls ---------------> for listing files and folders
+2. **ls** ---------------> for listing files and folders
 
-3. touch (filename){1..10} ------------> Add many file
+3. **touch (filename){1..10}** ------------> Add many file
 
        only 2(..)
 
-4. rm --------------> remove file and folder
+4. **rm** --------------> remove file and folder
 
-5. rm -v -----------> (visualization tools)
+5. **rm -v** -----------> (visualization tools)
 
        ex. rm -v filename ------------> showed remove file
 
-6. rm -v filename {1..5}--------> delete multiple file
+6. **rm -v filename {1..5}**--------> delete multiple file
 
-7. mkdir -------------> to create new folders
+7. **mkdir** -------------> to create new folders
 
       ex. mkdir abc
 
-8. rmdir -------------> to delete folders
+8. **rmdir** -------------> to delete folders
 
       ex. rmdir abc
 
-9. rm -r -v -f * --------------> to delete all folders and file
+9. **rm -r -v -f*** --------------> to delete all folders and file
 
-10. rm -rvf * --------------> to delete all folders and file
+10. **rm -rvf*** --------------> to delete all folders and file
 
 11. rm -r ------------> delete directory and content inside it
 
