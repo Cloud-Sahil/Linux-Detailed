@@ -11,4 +11,7 @@
     - **free -h** - iga byte
 8. **Swap** - Storge attach to ram
 9. **clear** - clear the terminal
-10. **cat|**
+10. **cat /etc/os-release** - To check the os of the file
+11. **uname** - To check kernal
+
+    - **uname -a**
