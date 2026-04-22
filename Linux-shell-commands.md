@@ -14,4 +14,7 @@
 10. **cat /etc/os-release** - To check the os of the file
 11. **uname** - To check kernal
 
-    - **uname -a**
+    - **uname -a** - Detail information of kernel
+    - **uname -r** - To check kernel id
+    - **uname -v** - To check kernel Version
+12. 
