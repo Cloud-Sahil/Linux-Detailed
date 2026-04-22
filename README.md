@@ -1,4 +1,4 @@
-# Introduction to Linux
+<img width="80" height="80" alt="image" src="https://github.com/user-attachments/assets/8a5532bf-a27f-4c3b-869a-e3be5a0bc369" /># Introduction to Linux
 
 Linux is an **open-source operating system** used in servers, cloud, DevOps, etc.
 
