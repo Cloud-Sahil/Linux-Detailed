@@ -9,3 +9,6 @@
     - **free -m** - mb
     - **free -g** - gb
     - **free -h** - iga byte
+8. **Swap** - Storge attach to ram
+9. **clear** - clear the terminal
+10. **cat|**
