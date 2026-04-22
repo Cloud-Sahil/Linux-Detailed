@@ -11,10 +11,18 @@
     - **free -h** - iga byte
 8. **Swap** - Storge attach to ram
 9. **clear** - clear the terminal
-10. **cat /etc/os-release** - To check the os of the file
-11. **uname** - To check kernal
+10. **cat** - To read the content file
+11. **cat /etc/os-release** - To check the os of the file
+12. **uname** - To check kernal
 
     - **uname -a** - Detail information of kernel
     - **uname -r** - To check kernel id
     - **uname -v** - To check kernel Version
-12. 
+13. **man** - Manual
+14. **history** - To check history
+15. **date** - To check date & time
+     - **sudo date** - MMDDYY
+16. **shutdown** - shutdown linux
+17. **shutdown now** - shutdown linux now
+18. **ctrl +d** - Exit
+
