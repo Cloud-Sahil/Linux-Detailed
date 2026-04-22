@@ -26,7 +26,11 @@
 17. **shutdown now** - shutdown linux now
 18. **ctrl +d** - Exit
 
+---
 **- `1kb` - kilbyte - 1000 bytes**
+
 **- `1 kib` - 1024 byte**
+
 **- Byte is basic unit of computer data**
+
 **- `1 byte` - 8 bits**
