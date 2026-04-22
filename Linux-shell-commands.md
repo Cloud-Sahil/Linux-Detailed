@@ -5,7 +5,7 @@
 5. **lscpu|less** - scroll
 6. **Press Q** - For Quit
 7. **Free** - To check memory
-  - **free -k** - kb
-  - **free -m** - mb
-  - **free -g** - gb
-  - **free -h** - iga byte
+    - **free -k** - kb
+    - **free -m** - mb
+    - **free -g** - gb
+    - **free -h** - iga byte
