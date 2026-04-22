@@ -1,1 +1,20 @@
+1. `/bin` ------------> commands (local user access)
+2. `/boot` -----------> booting files (system load)
+3. `/dev` -------------> devices related files
+4. `/etc` ------------> configuration files (settings)
+5. `/home` ----------> home dir. for local user
+6. `/lib` ------------> libraries
+7. `/lib (32,64,82)` ----------> libraries
+8. `/media` -----------> permanent mounting point (attached extra storage)
+9. `/mnt` ---------> temporary mounting point (ex. pen drive)
+10. `/opt` ----------> 3rd party tools installation (ex. snapchat, Instagram)
+11. `/proc` -----------> processes or process related files
+12. `/root` ------------> home dir. for root user/super user
+13. `/run` ------------> runtime variable data
+14. `/sbin` -----------> commands (super user) (admin)
+15. `/srv` ------------> service related files
+16. `/sys` ------------> system related files
+17. `/tmp` ------------> Templary files
+18. `/usr` -------------> user/ service related data
+19. `/var` -------------> variables & logs (logs means records)
 
