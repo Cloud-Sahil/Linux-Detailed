@@ -33,7 +33,7 @@ Labex: Project | $
  - labex - user
  - project - host name , working directory
  - $ - user type
- - 
+
 # User Types
 
 1.` # - Super User`
