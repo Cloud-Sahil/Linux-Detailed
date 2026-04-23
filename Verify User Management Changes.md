@@ -31,3 +31,9 @@ sahil:x:5001:5001: :/home/sahil:/bin/sh
  1. echo $SHELL ------------------> to check shell
  2. id --------------------> to show id
  3. usermod -l (new name) (old name) ----------> modify user name
+
+## 2. /etc/shadow
+
+```sh
+sahilya:$y$j9T$tOKoajv37Jwn.wD2gLf1s0$wixK8mPHqs/s8zq1tQcINU7ArDWg1cddfVaPG39grt/:20295:0:99999:7:::
+```
