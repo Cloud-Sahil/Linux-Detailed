@@ -8,7 +8,7 @@
 
 | *     | *   | *    | *             | *               |
 |------------|---------|-----------------|--------------------|------------------------|
-| Minutes    | 0–59    | Minute field    | 0–59               | 30 → at 30th minute    |
+| Minutes    | Hours    | Day (Date)    | Month               | Day (Week)   |
 | Hours      | 0–23    | Hour field      | 0–23               | 14 → 2 PM              |
 | Day (Date) | 1–31    | Day of month    | 1–31               | 15 → 15th day          |
 | Month      | 1–12    | Month           | 1–12 / Jan–Dec     | 4 or Apr               |
