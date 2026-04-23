@@ -34,7 +34,7 @@ vi file.txt
  - :w ------------------> To save the changes
  - :wq ------------------> To save & exit
  - :q! ------------------> To exit without save
-## ## vim Editor
+## vim Editor
 ```sh
 vim file.txt
 ```
