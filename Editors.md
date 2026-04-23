@@ -59,17 +59,17 @@ vim file.txt
 
 
 1. yy -------------------> to copy the line (yanked)
-2. n yy -------------------> to copy multiple lines
+2. (no.) yy -------------------> to copy multiple lines
 3. p -------------------> to paste 
 4. u -------------------> undo
 5. yw ------------------->   to copy single words
-6. n yw ------------------>- to copy multiple words
+6. (no.) yw ------------------>- to copy multiple words
 7. dd -------------------> to delete particular line
-8. n dd -------------------> to delete multiple lines
+8. (no.) dd -------------------> to delete multiple lines
 9. dw -------------------> to delete single word
-10. n dw ------------------>-to delete multiple words
+10.(no.) dw ------------------>-to delete multiple words
 11. gg -------------------> go to top
-12. n gg ------------------->go to top (n = numbers)
+12. (no.)gg ------------------->go to top (n = numbers)
 13. G ------------------->go to last line
 14. H -------------------> top of line which is visible
 15. L ------------------->> bottom of line which is visible
