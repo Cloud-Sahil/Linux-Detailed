@@ -27,11 +27,11 @@
     - find / -name <filename / dir.>  -------  
     - find /root -name <filename / dir.>  ------
     - find /root -cmin 2(min)  ------  
-    -  find -ctime  ------  for day
-    -      -cmin  -------  for min 
+    - find -ctime  ------  for day
+    - find -cmin  -------  for min 
     - find /root -name 777  -------  to search file by permission 
-    -      -mtime  -------  modified 1 day
-    -      -mmin  -------  
+    - find -mtime  -------  modified 1 day
+    - find -mmin  -------  
     - find / -user name | less 
     - find /home -user <filename>
     - find /home/<filename> -user <filename>
