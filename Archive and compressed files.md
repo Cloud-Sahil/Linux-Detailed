@@ -25,3 +25,11 @@ tar<flag> <destination & mention extention.tar> <source>
  3. tar -xf <source> -------------- format
 
  `tar -xf opt.tar` ------------- to extract where you tar file present
+
+---
+## 2. Compression
+| Compression | Compression Size | Size  | Speed  | Extension | Decompression | Archive + Compression |
+|-------------|------------------|-------|--------|-----------|---------------|------------------------|
+| gzip        | Low              | 80 MB | High   | .gz       | gunzip        | -z                     |
+| bzip2       | Medium           | 50 MB | Medium | .bzip2    | bunzip2       | -j                     |
+| xz          | High             | 30 MB | Low    | .xz       | unxz          | -J                     |
