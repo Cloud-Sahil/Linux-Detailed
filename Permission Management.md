@@ -22,5 +22,5 @@ o ---------> other
  - 	remove (-)
  - 	set (=)
 
-### Ex. 1. chmod ugo+rwx 
-### Ex. 2. chmod 777
+Ex. 1. chmod ugo+rwx 
+Ex. 2. chmod 777
