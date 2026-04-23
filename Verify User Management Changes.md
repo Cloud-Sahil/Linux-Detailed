@@ -11,13 +11,13 @@
 ```sh
 sahil:x:5001:5001: :/home/sahil:/bin/sh
 ```
-   - username
-   - linked to password
-   - user id 
-   - group id 
-   - comment
-   - user's home dir.
-   - shell
+   	- username
+   	- linked to password
+   	- user id 
+   	- group id 
+   	- comment
+   	- user's home dir.
+   	- shell
 
  to make customized user ------------
 	useradd -u 2002 -g 5001 -c "hii" -m -s /bin/bash adii
