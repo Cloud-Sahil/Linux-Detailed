@@ -26,6 +26,9 @@ Linux helps you:
  - Run programs
  - Manage files
  - Control hardware
+# Who is creator of Linux?
+Linus Torvalds in 1991 (Software Engineer)
+
 # Ex.
 ```sh
 labex:project/ $ 
