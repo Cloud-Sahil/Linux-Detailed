@@ -25,3 +25,36 @@ o ---------> other
 Ex. 1. chmod ugo+rwx 
 
 Ex. 2. chmod 777
+
+1.  `-r-xr-xr-x 1 root root 0 Jul 29 20:06 student` 
+ - filename permissions
+ - links
+ - username
+ - group name
+ - file size
+ - date & time
+ - filename
+2. `-rw-rw-r-- 1 root root 0 Apr 25 21:20 (file2)`
+   - file type
+   - permission modes
+   - link count
+   - ownership
+   - file size
+   - time stamp
+   - file names
+----
+
+## file type
+1. user defined files
+ - d  ------  dir.
+ - (-)  ------  normal file
+ - l  ------  linked file
+2. system defined files
+ - b  -------  block device file
+ - c  -------  character device file
+ - p  -------  pipe file
+ - s  -------  socket device file
+
+
+dir. linked count = 2 
+file linkedd count = 1
