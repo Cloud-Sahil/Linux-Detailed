@@ -64,12 +64,15 @@ file linkedd count = 1
 ```sh
 du -sh <filename>
 ```
-  mkdir -p cloud/rain/drop
-  nano cloud/rain/drop/flower
-  ln cloud/rain/drop/flower .
-  ls -l
-  mkdir student
-  cd student/
-  ln -s /root/cloud/rain/drop/flower
-  ls -l
+```sh
+mkdir -p cloud/rain/drop
+nano cloud/rain/drop/flower
+ln cloud/rain/drop/flower .
+ls -l
+mkdir student
+cd student/
+ln -s /root/cloud/rain/drop/flower
+ls -l
+```
+
 
