@@ -75,3 +75,15 @@ vim file.txt
 15. L ------------------->> bottom of line which is visible
 16. M ------------------>> middle of line which is visible
 
+### 2. Insert Mode (Typing Mode)
+
+1. i   --------------------> to go to insert mode	
+2. I   --------------------> to go to insert mode and cursor at the starting of a line
+3. a   --------------------> to go to insert mode and cursor jump at next character
+4. A   --------------------> to go to insert mode and cursor jump at end of the line
+5. o   --------------------> to go to insert mode and adding a new line below (खाली )
+6. O   --------------------> to go to insert mode and adding a new line upwards (वर)
+7. s   --------------------> to go to insert mode and delete single character
+8. S   --------------------> to go to insert mode and delete line 	
+9. r   --------------------> to go to insert mode and replace the character 
+10. R   --------------------> to go to insert mode and replace the line 
