@@ -57,4 +57,19 @@ Ex. 2. chmod 777
 
 
 dir. linked count = 2 
+
 file linkedd count = 1
+
+## To check file size 
+```sh
+du -sh <filename>
+```
+  mkdir -p cloud/rain/drop
+  nano cloud/rain/drop/flower
+  ln cloud/rain/drop/flower .
+  ls -l
+  mkdir student
+  cd student/
+  ln -s /root/cloud/rain/drop/flower
+  ls -l
+
