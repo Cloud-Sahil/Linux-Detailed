@@ -10,3 +10,7 @@
 1. chmod ---------- to change permission
 2. chown ----------- to change owner
 3. chgrp ------------ to change group
+
+1. u ----------> user / owner		       	Add (+)
+2. g ----------> group			              remove (-)
+3. o ---------> other		               	set (=)
