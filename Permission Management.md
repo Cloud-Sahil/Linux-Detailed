@@ -5,4 +5,3 @@
 2. w -----------> write (2)      
 3. x -----------> execute (1) 
 4. - -----------> no permission (0)
-   - total sum is 7
