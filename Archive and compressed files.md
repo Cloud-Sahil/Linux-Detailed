@@ -5,6 +5,11 @@
 3. (-v)  -------------   verbose (visualization)
 4. (-x)  -------------   it extract the file
 5. (-f)  -------------   file 
-6. (tar --help) ----------- 
+6. (tar --help) 
 7. (-C)  -------------   change location
 8. (-t)  -------------   list
+
+Syntax ------->
+```sh
+tar<flag> <destination & mention extention.tar> <source>
+```
