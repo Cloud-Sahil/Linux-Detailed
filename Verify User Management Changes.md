@@ -7,7 +7,9 @@
 
 **/etc/skel (.bash-logout, bashrc, .profile)** ------> these files get copied into user's home dir.
 
-## 1. /etc/passwd ---------- fields
+---
+## 1. /etc/passwd 
+
 ```sh
 sahil:x:5001:5001: :/home/sahil:/bin/sh
 ```
