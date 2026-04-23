@@ -87,3 +87,17 @@ vim file.txt
 8. S   --------------------> to go to insert mode and delete line 	
 9. r   --------------------> to go to insert mode and replace the character 
 10. R   --------------------> to go to insert mode and replace the line 
+
+### 3. Command-Line Mode (Execute Mode)
+
+1. :w  -------------->- to save the changes
+2. :wq -------------->- to save and exit
+         :x  -------------->- to save and exit
+         :x! -------------->- to save and exit
+          ZZ -------------->- to save and exit
+         :write | exit -------------->- save and exit
+3. :q! -------------->- to exit without saving
+4. :/(word to highlight) -------------->- to find the specific word or highlight it
+5. :noh -------------->- to cancel highlighted word
+6. :set no(num.) -------------->- to remove numbering
+7. :set number -------------->- to add numbering
