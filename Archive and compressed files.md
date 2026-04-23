@@ -45,9 +45,9 @@ tar<flag> <destination & mention extention.tar> <source>
 🔹Normal file / Archive file ----- compress (gz, bzip2, xz) --- extract	
 
  - ex ---
-   - 1. opt.tar.gz
-   - 2. opt.tar.bzip2
-   - 3. opt.tar.xz
+   -  opt.tar.gz
+   - opt.tar.bzip2
+   -  opt.tar.xz
 
 🔹 Archieve + Compression -------
 ```sh		
@@ -56,8 +56,8 @@ bzip2 -j (small)
 xz -J (big)
 ```
  - ex ---
-     - 1. tar -czf /root/(media).tar.gz /opt/      
-     - 2. tar -xzf opt.tar.gz -C/home/  ------   To extract & decompress file at different location
+     -  tar -czf /root/(media).tar.gz /opt/      
+     -  tar -xzf opt.tar.gz -C/home/  ------   To extract & decompress file at different location
 
 
 - To decompree file in another location move the file to that location decompree it
