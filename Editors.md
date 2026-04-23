@@ -58,7 +58,7 @@ vim file.txt
 ### 1. Command mode (Default Mode)
 
 
-**1. yy - to copy the line (yanked)
+1. yy - to copy the line (yanked)
 2. n yy - to copy multiple lines
 3. p - to paste 
 4. u - undo
@@ -73,5 +73,5 @@ vim file.txt
 13. G ---> go to last line
 14. H ---> top of line which is visible
 15. L ---> bottom of line which is visible
-16. M ---> middle of line which is visible**
+16. M ---> middle of line which is visible
 
