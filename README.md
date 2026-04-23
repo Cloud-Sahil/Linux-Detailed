@@ -42,3 +42,8 @@ labex:project/ $
 1.` # - Super User`
 
 2.` $ - Local User`
+
+---
+# What is DevOps?
+DevOps is a combination of Development (Dev) and Operation (Ops). it is a set of practices that aims to bridge the gap between software development and IT operation , enabling faster, more reliable software
+delivery.
