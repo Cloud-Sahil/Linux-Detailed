@@ -60,6 +60,7 @@ dir. linked count = 2
 
 file linkedd count = 1
 
+---
 ## To check file size 
 ```sh
 du -sh <filename>
