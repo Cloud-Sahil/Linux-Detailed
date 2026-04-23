@@ -51,3 +51,33 @@ sahilya:$y$j9T$tOKoajv37Jwn.wD2gLf1s0$wixK8mPHqs/s8zq1tQcINU7ArDWg1cddfVaPG39grt
 `change -M 2 -W 10 sahilya -I 7`
 
 `change -d 0 -m 0 sahilya`
+
+## 3. /etc/group
+
+```sh
+sahil:!:20297:
+```
+
+ - groupname
+ - linked to password
+ - gid
+ - user list
+
+1. groupadd -------> creating new group
+2. groupmod <flag> <groupname> -------> modify the group
+3. addgroup <username> <groupname> -------> adding new group
+
+## 4. /etc/gshadow
+
+```sh
+sahil:!:20297:0:99999:7:::
+```
+
+ - groupname
+ - encrypted password
+ - admin
+ - user list 
+
+1. gpasswd ---------> to set group password
+2. gpasswd -a --------> to add user in group
+3. gpasswd -A <username> <groupname> ----------> to add user as admin in group
