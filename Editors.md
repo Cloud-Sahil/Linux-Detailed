@@ -92,10 +92,10 @@ vim file.txt
 
 1. :w  -------------->- to save the changes
 2. :wq -------------->- to save and exit
-        - :x  -------------->- to save and exit
-        - :x! -------------->- to save and exit
-        -  ZZ -------------->- to save and exit
-        - :write | exit -------------->- save and exit
+     - :x  -------------->- to save and exit
+     - :x! -------------->- to save and exit
+     -  ZZ -------------->- to save and exit
+     - :write | exit -------------->- save and exit
 3. :q! -------------->- to exit without saving
 4. :/(word to highlight) -------------->- to find the specific word or highlight it
 5. :noh -------------->- to cancel highlighted word
