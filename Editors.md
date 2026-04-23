@@ -104,8 +104,8 @@ vim file.txt
 
 ### 4. Visual Mode (Selection Mode)
 
-v ----------> select the character
-V ----------> select the line
-ctrl + v ---------> select the columns 
+1. v ----------> select the character
+2. V ----------> select the line
+3. ctrl + v ---------> select the columns 
 
 ---
