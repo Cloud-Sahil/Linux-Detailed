@@ -45,7 +45,7 @@ vim file.txt
  - :wq ------------------> To save & exit
  - :q! ------------------> To exit without save
 
-## Quick Comparison
+## 🔹Quick Comparison
 | Editor | Difficulty  | Use              |
 |--------|-------------|------------------|
 | Nano   | Easy      | Beginners        |
