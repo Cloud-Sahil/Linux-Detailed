@@ -6,7 +6,7 @@
  - crontab -l ----- check crontab
  - cat /etc/crontab ---- read crontab 
 
-| *     | Range   | Description     | Values             | Example                |
+| *     | *   | *    | *             | *               |
 |------------|---------|-----------------|--------------------|------------------------|
 | Minutes    | 0–59    | Minute field    | 0–59               | 30 → at 30th minute    |
 | Hours      | 0–23    | Hour field      | 0–23               | 14 → 2 PM              |
