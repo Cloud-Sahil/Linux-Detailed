@@ -37,3 +37,13 @@ sahil:x:5001:5001: :/home/sahil:/bin/sh
 ```sh
 sahilya:$y$j9T$tOKoajv37Jwn.wD2gLf1s0$wixK8mPHqs/s8zq1tQcINU7ArDWg1cddfVaPG39grt/:20295:0:99999:7:::
 ```
+
+ - username
+ - encrypted password
+ - days count from 1 jan 1970 till the last password change --- chage -d
+ - min days --- chage -m
+ - max days --- chage -M
+ - warning days --- chage -W
+ - date of expiry --- chage -I
+ - password inactive --- chage -E
+ - future use --- chage -F
