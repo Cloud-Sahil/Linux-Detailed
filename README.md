@@ -61,5 +61,20 @@ check is feature work correctly
 ensure smooth deployment and monitoring
 # Deployment
 publically available
+# Developers vs Testers vs DevOps
+| Role            | Responsibility                              |
+| --------------- | ------------------------------------------- |
+| Developer       | Writes code based on requirements           |
+| Tester          | Checks application for issues/bugs          |
+| DevOps Engineer | Deploys, automates, and manages environment |
+# Windows vs Linux
+
+| Feature       | Windows               | Linux                            |
+| ------------- | --------------------- | -------------------------------- |
+| Cost          | Paid                  | Free & Open Source               |
+| Performance   | Good for Personal Use | Best for Servers and Development |
+| Security      | Moderate              | Very Secure                      |
+| Interface     | GUI Focused           | CLI + GUI                        |
+| Customization | Limited               | Highly Customizable              |
 
 ---
