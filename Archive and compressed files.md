@@ -33,3 +33,10 @@ tar<flag> <destination & mention extention.tar> <source>
 | gzip        | Low              | 80 MB | High   | .gz       | gunzip        | -z                     |
 | bzip2       | Medium           | 50 MB | Medium | .bzip2    | bunzip2       | -j                     |
 | xz          | High             | 30 MB | Low    | .xz       | unxz          | -J                     |
+
+1. tools ---- (gzip,bzip2,xz)
+2. low ---- (low ,medium ,high)
+3. mb
+4. speed ---- (high ,medium, low)
+5. extensions ----  (.gz, .bzip2, .xz)
+6. extaction commands ---- (gunzip, bunzip2, unxz)
