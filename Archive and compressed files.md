@@ -42,10 +42,10 @@ tar<flag> <destination & mention extention.tar> <source>
 6. extaction commands ---- (gunzip, bunzip2, unxz)
 
  - Normal file / Archive file ----- compress (gz, bzip2, xz) --- extract	
-    - ex ---
-    - 1. opt.tar.gz
-			 - 2. opt.tar.bzip2
-			 - 3. opt.tar.xz
+ex ---
+ - 1. opt.tar.gz
+ - 2. opt.tar.bzip2
+ - 3. opt.tar.xz
 
  -  Archieve + Compression -------
 		
