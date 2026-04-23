@@ -16,5 +16,7 @@
 2. 00 00 * * sat /bin/touch xyz
 
 `1. crontab -e ------- to edit the cronjob`
+
 `2. crontab -l ------- to list the cronjob` 
+
  *IMP* `3. crontab -r ------- will remove all cronjob (Not recommended)`
