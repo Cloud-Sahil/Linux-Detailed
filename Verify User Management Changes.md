@@ -20,10 +20,11 @@ sahil:x:5001:5001: :/home/sahil:/bin/sh
    - shell
 
  to make customized user ------------
-	useradd -u 2002 -g 5001 -c "hii" -m -s /bin/bash adii
+ 
+  - useradd -u 2002 -g 5001 -c "hii" -m -s /bin/bash adii
 
  to modify the user ---------
-	usermod <flag> <username>
+  - usermod <flag> <username>
  
  1. echo $SHELL ------------------> to check shell
  2. id --------------------> to show id
