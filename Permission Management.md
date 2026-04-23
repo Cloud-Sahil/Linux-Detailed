@@ -12,9 +12,11 @@
 3. chgrp ------------ to change group
 
 
-1. u ----------> user / owner		       	
-2. g ----------> group			              
-3. o ---------> other		               	
+u ----------> user / owner	
+
+g ----------> group	
+
+o ---------> other		               	
 
  - 	Add (+)
  - 	remove (-)
