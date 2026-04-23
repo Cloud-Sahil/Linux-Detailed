@@ -47,3 +47,19 @@ labex:project/ $
 # What is DevOps?
 DevOps is a combination of Development (Dev) and Operation (Ops). it is a set of practices that aims to bridge the gap between software development and IT operation , enabling faster, more reliable software
 delivery.
+# What is Application?
+Application is a piece of software designed to perform a specific task.
+# What is Cloud?
+Cloud is a platform which provide verities of such as servers, storage, databases, networking, software, analytics, and more—over the internet. instead of using local servers or personal computers.
+# Definition of Operating System(os)
+An Operating System (os) is system software that manages hardware and software resources in a computer. It acts as an interface between users and the computer hardware, ensuring efficient execution of applications.
+# Developer
+Write code, build features
+# Tester 
+check is feature work correctly
+# DevOps
+ensure smooth deployment and monitoring
+# Deployment
+publically available
+
+---
