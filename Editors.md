@@ -67,7 +67,7 @@ vim file.txt
 7. dd -------------------> to delete particular line
 8. (no.) dd -------------------> to delete multiple lines
 9. dw -------------------> to delete single word
-10.(no.) dw ------------------>-to delete multiple words
+10. (no.) dw ------------------>-to delete multiple words
 11. gg -------------------> go to top
 12. (no.)gg ------------------->go to top (n = numbers)
 13. G ------------------->go to last line
