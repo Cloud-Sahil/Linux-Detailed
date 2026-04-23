@@ -8,5 +8,7 @@
  - total sum is 7
 
 . chmod ---------- to change permission
+
 . chown ----------- to change owner
+
 . chgrp ------------ to change group
