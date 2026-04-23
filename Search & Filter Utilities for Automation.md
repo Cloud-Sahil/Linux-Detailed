@@ -1,9 +1,9 @@
 # Search & Filter Utilities in Linux (for Automation)
 **(cat ,grep, sort, uniq, find)**
 
-**1.  cat**  --------   to merge the file
+1.  cat  --------   to merge the file
 
-**2.  grep** ---------   grep "<word>" filename 	  ( ex. grep "ubuntu"  os-release )
+2.  grep ---------   grep "<word>" filename 	  ( ex. grep "ubuntu"  os-release )
     - grep -i "<word>" filename
     - grep -c "<word>" filename  ---- no of count word total 
     - grep -ci "<word>" filename  ---- no of count words both capital and small word total 
