@@ -44,5 +44,11 @@ vim file.txt
  - :w ------------------> To save the changes
  - :wq ------------------> To save & exit
  - :q! ------------------> To exit without save
----
+
+| Editor | Difficulty  | Use              |
+|--------|-------------|------------------|
+| Nano   | Easy      | Beginners        |
+| Pico   | Easy        | Simple editing   |
+| vi     | Medium      | Default editor   |
+| Vim    | Advanced  | Professionals    |
 
