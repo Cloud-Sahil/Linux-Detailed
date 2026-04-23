@@ -6,3 +6,4 @@
 4. tail -(no.) /etc/gshadow ------------> group password
 
 ---
+## /etc/skel (.bash-logout, bashrc, .profile) -- these files get copied into user's home dir.
