@@ -45,3 +45,28 @@ tar -tvf opt.tar
 | gzip  | Low               | High   | `.gz`     | `gunzip`           |
 | bzip2 | Medium            | Medium | `.bz2`    | `bunzip2`          |
 | xz    | High              | Low    | `.xz`     | `unxz`             |
+
+🔹 Basic Commands
+```sh
+gzip file.txt     # creates file.txt.gz
+bzip2 file.txt    # creates file.txt.bz2
+xz file.txt       # creates file.txt.xz
+```
+---
+## 🔗 3. Archive + Compression
+🔹 Create compressed archive
+```sh
+tar -czf file.tar.gz /opt     # gzip
+tar -cjf file.tar.bz2 /opt    # bzip2
+tar -cJf file.tar.xz /opt     # xz
+```
+🔹 Extract compressed archive
+```sh
+tar -xzf file.tar.gz
+tar -xjf file.tar.bz2
+tar -xJf file.tar.xz
+```
+🔹 Extract to different location
+```sh
+tar -xzf file.tar.gz -C /home
+```
