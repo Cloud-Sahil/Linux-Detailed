@@ -1,4 +1,8 @@
 /bin ------------> commands (local user access)
+ex. ((ls, cp, mv))
+```sh
+ls /bin
+```
 /boot -----------> booting files (system load)
 /dev -------------> devices related files
 /etc ------------> configuration files (settings)
