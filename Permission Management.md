@@ -1,79 +1,117 @@
-# Permission Management
-**Permission management** controls who can **read, write, or execute** files and directories.
+# 🔐 Permission Management in Linux
 
-1. r ----------> read (4)  
-2. w -----------> write (2)      
-3. x -----------> execute (1) 
-4. (-) -----------> no permission (0)
- - total sum is 7
-
-1. chmod ---------- to change permission
-2. chown ----------- to change owner
-3. chgrp ------------ to change group
-
-
-u ----------> user / owner	
-
-g ----------> group	
-
-o ---------> other		               	
-
- - 	Add (+)
- - 	remove (-)
- - 	set (=)
-
-Ex. 1. chmod ugo+rwx 
-
-Ex. 2. chmod 777
-
-1.  `-r-xr-xr-x 1 root root 0 Jul 29 20:06 student` 
- - filename permissions
- - links
- - username
- - group name
- - file size
- - date & time
- - filename
-2. `-rw-rw-r-- 1 root root 0 Apr 25 21:20 (file2)`
-   - file type
-   - permission modes
-   - link count
-   - ownership
-   - file size
-   - time stamp
-   - file names
-----
-
-## file type
-1. user defined files
- - d  ------  dir.
- - (-)  ------  normal file
- - l  ------  linked file
-2. system defined files
- - b  -------  block device file
- - c  -------  character device file
- - p  -------  pipe file
- - s  -------  socket device file
-
-
-dir. linked count = 2 
-
-file linkedd count = 1
+## 📌 Overview
+Permission management in Linux controls **who can read, write, and execute** files and directories.
 
 ---
-## To check file size 
-```sh
-du -sh <filename>
+
+## 🔢 Permission Types
+
+| Symbol | Meaning  | Value |
+|--------|----------|-------|
+| r      | Read     | 4     |
+| w      | Write    | 2     |
+| x      | Execute  | 1     |
+| -      | No Permission | 0 |
+
+👉 Example:
+- `rwx = 7` (4+2+1)
+- `rw- = 6`
+- `r-- = 4`
+
+---
+
+## 👤 Permission Levels
+
+| Symbol | Description |
+|--------|-------------|
+| u      | User (Owner) |
+| g      | Group        |
+| o      | Others       |
+
+---
+
+## ⚙️ Commands
+
+### 🔹 Change Permissions
+
+```bash
+chmod 777 file.txt
+chmod u+rwx file.txt
+chmod g-w file.txt
 ```
+### 🔹 Change Ownership
 ```sh
+chown user file.txt
+chown user:group file.txt
+```
+### 🔹 Change Group
+```sh
+chgrp group file.txt
+```
+### 🧾 File Permission Format
+```sh
+-rw-r--r-- 1 root root 0 Apr 25 21:20 file.txt
+```
+#### Breakdown
+| Field       | Meaning       |
+| ----------- | ------------- |
+| `-`         | File type     |
+| `rw-r--r--` | Permissions   |
+| `1`         | Link count    |
+| `root`      | Owner         |
+| `root`      | Group         |
+| `0`         | File size     |
+| Date        | Last modified |
+| Name        | File name     |
+
+### 📂 File Types
+| Symbol | Type             |
+| ------ | ---------------- |
+| `-`    | Regular file     |
+| `d`    | Directory        |
+| `l`    | Symbolic link    |
+| `b`    | Block device     |
+| `c`    | Character device |
+| `p`    | Pipe             |
+| `s`    | Socket           |
+
+### 🔗 Links in Linux
+#### 🔹 Hard Link
+```sh
+ln file.txt hardlink.txt
+```
+ - Same inode
+ - Cannot link directories
+ - Link count increases
+#### 🔹 Soft Link (Symbolic)
+```sh
+ln -s file.txt softlink.txt
+```
+ - Points to original file
+ - Works across filesystems
+ - If original deleted → link breaks
+#### Link Count
+ - File → usually `1`
+ - Directory → `2` (default)
+### Check File Size
+```sh
+du -sh file.txt
+```
+### Practical Example
+```sh
+# Create directory structure
 mkdir -p cloud/rain/drop
+
+# Create file
 nano cloud/rain/drop/flower
-ln cloud/rain/drop/flower .
-ls -l
-mkdir student
-cd student/
-ln -s /root/cloud/rain/drop/flower
+
+# Create hard link
+ln cloud/rain/drop/flower flower_hard
+
+# Create symbolic link
+ln -s cloud/rain/drop/flower flower_soft
+
+# Check details
 ls -l
 ```
-
-
