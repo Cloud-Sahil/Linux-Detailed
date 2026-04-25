@@ -70,3 +70,8 @@ tar -xJf file.tar.xz
 ```sh
 tar -xzf file.tar.gz -C /home
 ```
+---
+`.tar` → archive only (no compression)
+`.tar.gz` → fast and commonly used
+`.tar.bz2` → better compression
+`.tar.xz` → highest compression (slower)
