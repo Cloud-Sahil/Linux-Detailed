@@ -19,3 +19,20 @@ Compression reduces the file size (using tools like `gzip`, `bzip2`, `xz`).
 ```sh
 tar -<flags> <archive-name>.tar <source>
 ```
+### 🔹 Examples
+✔️ Create archive
+```sh
+tar -cvf opt.tar /opt
+```
+✔️ Extract in same location
+```sh
+tar -xvf opt.tar
+```
+✔️ Extract to different location
+```sh
+tar -xvf opt.tar -C /etc
+```
+✔️ List contents
+```sh
+tar -tvf opt.tar
+```
