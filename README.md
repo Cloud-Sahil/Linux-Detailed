@@ -44,6 +44,17 @@ labex:project/ $
 
 2.` $ - Local User`
 
+## 🐧 Linux Distributions Overview
+
+| Distribution        | Based On  | Best For                |
+|--------------------|----------|------------------------|
+| Ubuntu             | Debian   | Beginners, Desktops    |
+| CentOS / RHEL      | Red Hat  | Enterprise Servers     |
+| Fedora             | Red Hat  | Developers             |
+| Arch Linux         | Independent | Advanced Users      |
+| Kali Linux         | Debian   | Cybersecurity          |
+| Raspberry Pi OS    | Debian   | IoT, Embedded Systems  |
+
 ---
 # What is DevOps?
 DevOps is a combination of Development (Dev) and Operation (Ops). it is a set of practices that aims to bridge the gap between software development and IT operation , enabling faster, more reliable software
