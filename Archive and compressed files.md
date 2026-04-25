@@ -37,3 +37,11 @@ tar -xvf opt.tar -C /etc
 ```sh
 tar -tvf opt.tar
 ```
+---
+## 🗜️ 2. Compression
+🔹 Tools Comparison
+| Tool  | Compression Level | Speed  | Extension | Decompress Command |
+| ----- | ----------------- | ------ | --------- | ------------------ |
+| gzip  | Low               | High   | `.gz`     | `gunzip`           |
+| bzip2 | Medium            | Medium | `.bz2`    | `bunzip2`          |
+| xz    | High              | Low    | `.xz`     | `unxz`             |
