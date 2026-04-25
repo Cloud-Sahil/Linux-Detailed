@@ -12,23 +12,24 @@ Linux is an **open-source operating system** used in servers, cloud, DevOps, etc
 # Architecture of linux
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/df314487-3794-4114-8a72-2e5a725e3b99" />
 
-# What is Linux?
-**Linux**is the **kernel base operating system**
+# 📌 What is Linux?
+Linux is a free, open-source operating system kernel created by Linus Torvalds in 1991.
 
-👉 It acts as a bridge between:
- - **User (you)**
- - **Hardware (CPU, memory, disk, etc.)**
-
-🔹 Simple Meaning:
-
-Linux helps you:
+## Linux helps you:
 
  - Run programs
  - Manage files
  - Control hardware
-# Who is creator of Linux?
-Linus Torvalds in 1991 (Software Engineer)
+## 🐧 Linux History Timeline
 
+| Year | Event |
+|------|------|
+| 1969 | UNIX created at AT&T Bell Labs |
+| 1983 | GNU Project started by Richard Stallman |
+| 1991 | Linus Torvalds released Linux kernel v0.01 |
+| 1994 | Linux kernel v1.0 released |
+| 2004 | Ubuntu launched — Linux for everyday users |
+| 2008 | Android (Linux-based) launched by Google |
 # Ex.
 ```sh
 labex:project/ $ 
