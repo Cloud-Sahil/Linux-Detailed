@@ -4,6 +4,7 @@
 Archiving means combining multiple files into a single file (using `tar`).
 Compression reduces the file size (using tools like `gzip`, `bzip2`, `xz`).
 
+---
 ## 🗂️ 1. Archive (`tar`)
 🔹 Common Flags
 | Flag | Description                     |
