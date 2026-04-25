@@ -1,26 +1,16 @@
 # 📦 Archive & Compression in Linux
+### Overview
 
-## 📌 Overview
-Archiving म्हणजे multiple files एकाच file मध्ये pack करणे (tar),  
-आणि Compression म्हणजे file size कमी करणे (gzip, bzip2, xz).
-
----
+Archiving means combining multiple files into a single file (using `tar`).
+Compression reduces the file size (using tools like `gzip`, `bzip2`, `xz`).
 
 ## 🗂️ 1. Archive (tar)
-
-### 🔹 Common Flags
-
-| Flag | Meaning |
-|------|--------|
-| -c   | Create archive |
-| -v   | Verbose (show progress) |
-| -x   | Extract archive |
-| -f   | File name |
-| -t   | List archive contents |
-| -C   | Extract to specific directory |
-
----
-
-### 🔹 Syntax
-```sh
-tar -<flags> <archive-name>.tar <source>
+🔹 Common Flags
+| Flag | Description                     |
+| ---- | ------------------------------- |
+| `-c` | Create a new archive            |
+| `-v` | Verbose (show progress)         |
+| `-x` | Extract files                   |
+| `-f` | Specify file name               |
+| `-t` | List contents                   |
+| `-C` | Extract to a specific directory |
