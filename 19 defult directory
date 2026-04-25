@@ -1,25 +1,3 @@
-/bin ------------> commands (local user access)
-/boot -----------> booting files (system load)
-/dev -------------> devices related files
-/etc ------------> configuration files (settings)
-/home ----------> home dir. for local user
-/lib ------------> libraries
-/lib (32,64,82) ----------> libraries
-/media -----------> permanent mounting point (attached extra storage)
-/mnt ---------> temporary mounting point (ex. pen drive)
-/opt ----------> 3rd party tools installation (ex. snapchat, Instagram)
-/proc -----------> processes or process related files
-/root ------------> home dir. for root user/super user
-/run ------------> runtime variable data
-/sbin -----------> commands (super user) (admin)
-/srv ------------> service related files
-/sys ------------> system related files
-/tmp ------------> Templary files
-/usr -------------> user/ service related data
-/var -------------> variables & logs (logs means records)
-
-
-
 # 🐧 Linux File System Structure
 
 ## 📌 Overview
