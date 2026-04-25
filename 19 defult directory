@@ -1,8 +1,4 @@
 /bin ------------> commands (local user access)
-ex. ((ls, cp, mv))
-```sh
-ls /bin
-```
 /boot -----------> booting files (system load)
 /dev -------------> devices related files
 /etc ------------> configuration files (settings)
@@ -22,3 +18,99 @@ ls /bin
 /usr -------------> user/ service related data
 /var -------------> variables & logs (logs means records)
 
+
+
+# 🐧 Linux File System Structure
+
+## 📌 Overview
+Linux follows a hierarchical directory structure where `/` is the root of everything.
+
+---
+
+## 📂 Important Directories
+
+### 📁 Core System
+
+- `/` → Root directory (base of entire file system)
+
+- `/bin` → Basic commands (for all users)  
+  _Ex: ls, cp, mv_
+
+- `/sbin` → System/admin commands (superuser)  
+  _Ex: fdisk, reboot_
+
+- `/boot` → Boot loader files (kernel, GRUB)
+
+- `/dev` → Device files  
+  _Ex: /dev/sda, /dev/null_
+
+- `/lib`, `/lib64` → System libraries required by binaries  
+
+---
+
+### ⚙️ Configuration & System
+
+- `/etc` → Configuration files  
+  _Ex: /etc/passwd, /etc/nginx/nginx.conf_
+
+- `/proc` → Process & system info (virtual filesystem)  
+  _Ex: /proc/cpuinfo_
+
+- `/sys` → Kernel & hardware info  
+
+- `/run` → Runtime data (temporary system info)
+
+---
+
+### 👤 User & Data
+
+- `/home` → Home directory for users  
+  _Ex: /home/sahil_
+
+- `/root` → Home directory for root user  
+
+- `/usr` → User programs & application data  
+  _Ex: /usr/bin, /usr/lib_
+
+---
+
+### 💾 Storage & Mounting
+
+- `/media` → Auto-mounted external devices (USB, CD)  
+
+- `/mnt` → Temporary mount point  
+
+---
+
+### 📦 Software & Services
+
+- `/opt` → Third-party software installation  
+
+- `/srv` → Service-related data (web, ftp)
+
+---
+
+### 📊 Logs & Temp
+
+- `/var` → Variable data (logs, cache)  
+  _Ex: /var/log_
+
+- `/tmp` → Temporary files (auto deleted)
+
+---
+
+## 🔥 Key Points (Interview Ready)
+
+- `/etc` → configs  
+- `/var/log` → logs  
+- `/home` → user data  
+- `/bin` vs `/sbin` → user vs admin commands  
+- `/usr` → applications  
+- `/tmp` → temporary files  
+
+---
+
+## 🎯 One-Line Summary
+
+👉  
+**“Linux file system is hierarchical, starting from `/`, where each directory has a specific purpose like configuration, logs, user data, and system binaries.”**
