@@ -54,6 +54,16 @@ labex:project/ $
 | Arch Linux         | Independent | Advanced Users      |
 | Kali Linux         | Debian   | Cybersecurity          |
 | Raspberry Pi OS    | Debian   | IoT, Embedded Systems  |
+## Key Linux Concepts
+
+| Concept   | Meaning |
+|-----------|--------|
+| Kernel    | Core of Linux — manages hardware |
+| Shell     | Interface between user and kernel |
+| Terminal  | Application used to access the shell |
+| Distro    | Linux + additional bundled software |
+| Root      | Superuser with full permissions |
+| Package   | Software bundled for easy installation |
 
 ---
 # What is DevOps?
