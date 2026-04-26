@@ -1,4 +1,4 @@
-#  Introduction to Linux
+# <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" width="40"/> Introduction to Linux
 
 > Topics covered: What is Linux · Architecture · History · Shell Prompt · User Types · Distributions · Key Concepts · DevOps · Cloud · OS · Windows vs Linux
 
