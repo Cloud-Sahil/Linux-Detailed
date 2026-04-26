@@ -1,6 +1,15 @@
-# Search & Filter Utilities in Linux (for Automation)
-**(cat ,grep, sort, uniq, find)**
+# 🔍 Search & Filter Utilities in Linux
+---
 
+## 🧰 Tools Covered
+
+- `cat` → view/merge files  
+- `grep` → search text  
+- `sort` → sort data  
+- `uniq` → remove duplicates  
+- `find` → search files/directories  
+
+---
 1.  cat  --------   to merge the file
 
 2.  grep ---------   grep "<word>" filename 	  ( ex. grep "ubuntu"  os-release )
