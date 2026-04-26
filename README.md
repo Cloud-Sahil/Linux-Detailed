@@ -1,4 +1,4 @@
-# <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/df314487-3794-4114-8a72-2e5a725e3b99" /> Introduction to Linux
+#  Introduction to Linux
 
 > Topics covered: What is Linux · Architecture · History · Shell Prompt · User Types · Distributions · Key Concepts · DevOps · Cloud · OS · Windows vs Linux
 
