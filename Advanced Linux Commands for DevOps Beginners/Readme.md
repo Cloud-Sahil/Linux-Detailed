@@ -124,8 +124,8 @@ sed '2s/dinesh/Dinesh/' file.txt
 
 Suppose the file contains:
 
-engineer
-engineering
+ - engineer
+ - engineering
 
 
 If you run:
@@ -168,33 +168,33 @@ sed 's/\<engineer\>/engineering/' file.txt
 
 The tr command is used to *translate or transform text* that comes as output from another command. It works on *standard input*, so it is usually used with a pipe (|). tr does not read files directly — it processes text passed to it.
 
-*Syntax:* command | tr 'set1' 'set2'
+`*Syntax:* command | tr 'set1' 'set2'`
 
 ### Examples
 
 #### Convert lowercase to uppercase
-bash
+```bash
 cat demo.txt | tr 'a-z' 'A-Z'
 # Converts all lowercase letters in demo.txt to uppercase.
 
-
+```
 #### Convert uppercase to lowercase
-bash
+```bash
 cat demo.txt | tr 'A-Z' 'a-z'
 
-
+```
 #### Remove characters
-bash
+```bash
 cat demo.txt | tr -d '0-9'
 # Removes all numbers from the output.
-
+```
 
 #### Squeeze repeated characters
-bash
+```bash
 cat demo.txt | tr -s ' '
 # Replaces multiple spaces with a single space.
 
-
+```
 ### When to use tr
 - Change text case (upper ↔️ lower)
 - Remove unwanted characters
@@ -206,10 +206,10 @@ cat demo.txt | tr -s ' '
 
 The adduser command is a *simple and user-friendly way* to create a new user in Linux.
 
-bash
+```bash
 adduser dinesh
 # Creates a user named dinesh.
-
+```
 
 During the process, it will:
 - Create the user
@@ -226,8 +226,9 @@ During the process, it will:
 | Password | Prompts for password and user details | Does *not* set a password automatically |
 
 When using useradd, you must manually set the password:
-bash
+```bash
 passwd username
+```
 # Example:
 passwd dinesh
 
