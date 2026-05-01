@@ -15,7 +15,7 @@ Let's discuss some more Linux commands which are kind of interesting and importa
 
 The find command is used to search for files and directories based on different conditions such as file type, name, size, and time of creation or modification. You can search files created or modified days ago or even minutes ago.
 
-*Syntax:* find <location> <options> <file_name_or_type>
+`*Syntax:* find <location> <options> <file_name_or_type>`
 
 ### Examples
 
