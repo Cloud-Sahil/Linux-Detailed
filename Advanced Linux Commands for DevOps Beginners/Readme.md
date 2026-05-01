@@ -19,7 +19,7 @@ The find command is used to search for files and directories based on different 
 
 ### Examples
 
-bash
+```bash
 find ~ -type f -name "code.txt"
 # Searches for a file named code.txt in the home directory.
 
@@ -41,7 +41,7 @@ find / -type d -mmin -5 -iname "india"
 
 find / -type d -mmin +5 -iname "india"
 # Searches for a directory modified more than 5 minutes ago.
-
+```
 
 ### Key Points
 
