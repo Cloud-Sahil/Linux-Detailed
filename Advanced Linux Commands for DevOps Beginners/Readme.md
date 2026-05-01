@@ -67,7 +67,7 @@ The sed command (Stream EDitor) is used to modify text in files without opening 
 ### Examples
 
 #### Substitute text
-bash
+```bash
 sed 's/old/new/' file.txt
 # s → substitute
 # Replaces only the FIRST occurrence of old in each line.
@@ -118,7 +118,7 @@ sed '2,20d' file.txt
 bash
 sed '2s/dinesh/Dinesh/' file.txt
 # Replaces dinesh with Dinesh only in line 2.
-
+```
 
 ### Important Concept: Word Boundary
 
@@ -129,9 +129,9 @@ engineering
 
 
 If you run:
-bash
+```bash
 sed 's/engineer/engineering/' file.txt
-
+```
 
 Output:
 
@@ -142,12 +142,12 @@ engineeringing
 This happens because sed finds engineer *inside* engineering.
 
 *Correct way (match whole word only):*
-bash
+```bash
 sed 's/\<engineer\>/engineering/' file.txt
 # \< and \> ensure exact word matching.
 # Only "engineer" is replaced, not "engineering".
 
-
+```
 ### sed Options Reference
 
 | Option | Explanation |
