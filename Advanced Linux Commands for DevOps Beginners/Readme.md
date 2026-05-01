@@ -71,24 +71,24 @@ The sed command (Stream EDitor) is used to modify text in files without opening 
 sed 's/old/new/' file.txt
 # s → substitute
 # Replaces only the FIRST occurrence of old in each line.
-
+```
 
 #### Global replacement
-bash
+```bash
 sed 's/dinesh/Dinesh/g' file.txt
 # g → global
 # Replaces ALL occurrences of dinesh in every line.
-
+```
 
 #### Edit the original file (in-place)
-bash
+```bash
 sed -i 's/dinesh/Dinesh/g' file.txt
 # -i → edits the original file directly
 # ⚠️ This is a DANGEROUS option if used incorrectly.
-
+```
 
 #### Print specific lines using -n and p
-bash
+```bash
 sed -n '2p' file.txt
 # -n → suppress automatic output
 # p  → print
@@ -96,26 +96,26 @@ sed -n '2p' file.txt
 
 sed -n '2,5p' file.txt
 # Prints lines from 2 to 5.
-
+```
 
 #### Replace and print only
-bash
+```bash
 sed -n 's/dinesh/Dinesh/gp' file.txt
 # Replaces text globally
 # Prints only the modified lines.
-
+```
 
 #### Delete lines
-bash
+```bash
 sed '2d' file.txt
 # Deletes the 2nd line.
 
 sed '2,20d' file.txt
 # Deletes lines from 2 to 20.
 
-
+```
 #### Replace text in a specific line
-bash
+```bash
 sed '2s/dinesh/Dinesh/' file.txt
 # Replaces dinesh with Dinesh only in line 2.
 ```
